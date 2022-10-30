@@ -1,12 +1,11 @@
-﻿using System.Net;
-using System.Threading.Concurrent;
-using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.TestHost;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Whistleblowing.Api.StartupExtesions;
+using System.Net;
+using System.Threading.Concurrent;
+using Xunit;
 
 namespace Whistleblowing.Tests
 {
